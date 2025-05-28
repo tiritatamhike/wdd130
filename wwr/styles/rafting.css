@@ -210,10 +210,11 @@
     }
 
     .history-content {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 2rem;
         align-items: center;
-        gap: 40px;
+        padding: 1.5rem 0;
     }
 
     .left-text,
@@ -232,6 +233,13 @@
 
     .centre-image img {
         width: 300px;
-        height: 300px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         object-fit: contain;
+    }
+
+    .container {
+        width: 840px;
+        margin: 0 auto;
     }
