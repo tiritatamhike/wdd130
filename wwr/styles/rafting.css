@@ -3,8 +3,9 @@
         --secondary-color: #f4a261;
         --accent1-color: #264653;
         --accent2-color: #e9c46a;
-        --heading-font: "Merriweather Sans", sans-serif;
-        --body-font: "Lato", sans-serif;
+        --heading-font: "Oswald", sans-serif;
+        --body-font: "Roboto", sans-serif;
+        --background-color: #f9f9f9
     }
 
     * {
@@ -12,6 +13,16 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--nav-bg-color);
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
 
     body {
         font-family: var(--body-font);
@@ -242,4 +253,8 @@
     .container {
         width: 840px;
         margin: 0 auto;
+    }
+
+    .adventure h2 {
+        text-align: center;
     }
