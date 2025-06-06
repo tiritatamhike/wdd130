@@ -2,28 +2,39 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> WDD 130 | HTML Form - User Poll</title>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="Poll Form" />
+    <meta name="author" content="Tinashe Mhike" />
+    <link rel="stylesheet" href="styles/poll-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <h1> WDD 130 | Tinashe Mhike | HTML Form - User Poll</h1>
+        <h1>WDD 130 | Tinashe Mhike | HTML Form - User Poll</h1>
     </header>
+
     <main>
-        <form>
+        <form action="" method="post">
             <fieldset>
                 <legend>Contact Information</legend>
+
                 <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
+                <input type="text" id="fullname" name="fullname" required />
+
                 <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail">
+                <input type="email" id="useremail" name="useremail" required />
             </fieldset>
+
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser"> What is your favorite internet browser</label>
+
+                <label for="browser">What is your favorite internet browser?</label>
                 <select id="browser" name="browser">
                     <option value="chrome">Chrome</option>
                     <option value="firefox">Firefox</option>
@@ -32,17 +43,23 @@
                     <option value="brave">Brave</option>
                     <option value="other">Other</option>
                 </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
+
+                <label>
+                    <input type="checkbox" id="pet" name="pet" />
+                    Do you have a household pet?
+                </label>
+
                 <label for="feedback">List the places you have lived:</label>
                 <textarea id="feedback" name="feedback" rows="4"
-                    placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali "></textarea>
+                    placeholder="Stillwater, Florida; Amsterdam, Netherlands; Timbuktu, Mali"></textarea>
             </fieldset>
+
             <button type="submit">Submit Poll</button>
         </form>
     </main>
+
     <footer>
-        <p>©️2025 | HTML Form - User Poll Activity | Tinashe Mhike</p>
+        <p>© 2025 | HTML Form - User Poll Activity | Tinashe Mhike</p>
     </footer>
 </body>
 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rapid Rush Adventures">
+    <meta name="author" content="Tinashe Mhike">
+    <title>Contact Us | Rapid Rush Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/Logo.jpeg" alt="Rafting Logo" class="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Feel free to reach out using the information below</p>
+
+        <section>
+            <h3>Company Information</h3>
+            <p><strong>Address:</strong> 3 Neethling, Benoni, 1500</p>
+            <p><strong>Phone:</strong> 0027 84 641 0274</p>
+            <p><strong>Email:</strong> <a href="mailto:info@rapidrushadventures.com">info@rapidrushadventures.com</a>
+            </p>
+        </section>
+
+        <section>
+            <h3>Find Us Here</h3>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.1234567890123!2d28.3212345!3d-26.1876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95123456789abc%3A0xabcdef1234567890!2s3%20Neethling%20St%2C%20Benoni%2C%201500%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1615398204371!5m2!1sen!2sza"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <h2 class="center-heading">Meet Our Happy Team</h2>
+        <div class="team-container">
+            <div class="employee-card">
+                <img src="images/Customer Experience Manager.jpg" alt="Sarah Moyo">
+                <div class="caption">
+                    Sarah Moyo<br><small>Customer Experience Manager</small>
+                </div>
+            </div>
+            <div class="employee-card">
+                <img src="images/operations manager.jpg" alt="James Smith">
+                <div class="caption">
+                    James Smith<br><small>Operations Supervisor</small>
+                </div>
+            </div>
+            <div class="employee-card">
+                <img src="images/marketingspeciliatist.webp" alt="Lebo Ndlovu">
+                <div class="caption">
+                    Lebo Ndlovu<br><small>Marketing Specialist</small>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+                <legend>Purpose of Your Message:</legend>
+                <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+            </fieldset>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©️ 2025 | Rapid Rush Adventures | Tinashe Mhike</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

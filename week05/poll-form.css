@@ -1,0 +1,112 @@
+/* 1. Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Body Styling */
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+    padding: 1rem;
+}
+
+/* 3. Header and Heading */
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+/* 4. Form Styling */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+/* 5. Fieldset Styling */
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+/* 6. Legend Styling */
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+/* 7. Form Elements Font */
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* 8. Label Styling */
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+/* 9. Input, Select, and Textarea Styling */
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* 10. Checkbox Styling */
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+/* 11. Button Styling */
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* 12. Footer Styling */
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+    padding-top: 0.5rem;
+}
