@@ -42,7 +42,7 @@
         <section>
             <h3>Find Us Here</h3>
             <div class="map-container">
-                <iframe
+                <iframe title="Rapid Rush Adventures Map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.1234567890123!2d28.3212345!3d-26.1876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95123456789abc%3A0xabcdef1234567890!2s3%20Neethling%20St%2C%20Benoni%2C%201500%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1615398204371!5m2!1sen!2sza"
                     allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -63,34 +63,44 @@
                 </div>
             </div>
             <div class="employee-card">
-                <img src="images/marketingspeciliatist.webp" alt="Lebo Ndlovu">
+                <img src="images/marketingspecilaist" alt="Lebo Ndlovu">
                 <div class="caption">
                     Lebo Ndlovu<br><small>Marketing Specialist</small>
                 </div>
             </div>
         </div>
 
-        <form>
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+        <section class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">Your Email Address:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Your Email Address:</label>
+                <input type="email" id="email" name="email" required>
 
-            <fieldset>
-                <legend>Purpose of Your Message:</legend>
-                <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
-            </fieldset>
+                <fieldset>
+                    <legend>Purpose of Your Message:</legend>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
 
-            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
 
-            <button type="submit">Send Message</button>
-        </form>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
 
     <footer>
